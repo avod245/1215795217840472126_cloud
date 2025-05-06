@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamecontroller configversion="19" appversion="2.24">
+    <!--The SDL name for a joystick is included for informational purposes only.-->
+    <sdlname>Controller (Xbox One For Windows)</sdlname>
+    <!--The GUID for a joystick is included for informational purposes only.-->
+    <guid>030000005e040000ff02000000007200</guid>
+    <names/>
+    <sets>
+        <set index="1">
+            <stick index="1">
+                <stickbutton index="4">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                </stickbutton>
+                <stickbutton index="7">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                    <extraacceleration>true</extraacceleration>
+                    <accelerationmultiplier>2.5</accelerationmultiplier>
+                </stickbutton>
+                <stickbutton index="6">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                </stickbutton>
+                <stickbutton index="1">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                    <extraacceleration>true</extraacceleration>
+                    <accelerationmultiplier>2.5</accelerationmultiplier>
+                </stickbutton>
+                <stickbutton index="3">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                    <extraacceleration>true</extraacceleration>
+                    <accelerationmultiplier>2.5</accelerationmultiplier>
+                </stickbutton>
+                <stickbutton index="2">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                </stickbutton>
+                <stickbutton index="8">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                </stickbutton>
+                <stickbutton index="5">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                    <extraacceleration>true</extraacceleration>
+                    <accelerationmultiplier>2.5</accelerationmultiplier>
+                </stickbutton>
+            </stick>
+            <stick index="2">
+                <stickbutton index="4">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                </stickbutton>
+                <stickbutton index="7">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                    <extraacceleration>true</extraacceleration>
+                    <accelerationmultiplier>2.5</accelerationmultiplier>
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="6">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                </stickbutton>
+                <stickbutton index="1">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                    <extraacceleration>true</extraacceleration>
+                    <accelerationmultiplier>2.5</accelerationmultiplier>
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="3">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                    <extraacceleration>true</extraacceleration>
+                    <accelerationmultiplier>2.5</accelerationmultiplier>
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="2">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                </stickbutton>
+                <stickbutton index="8">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                </stickbutton>
+                <stickbutton index="5">
+                    <mousespeedx>225</mousespeedx>
+                    <mousespeedy>225</mousespeedy>
+                    <extraacceleration>true</extraacceleration>
+                    <accelerationmultiplier>2.5</accelerationmultiplier>
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+            </stick>
+            <dpad index="1">
+                <dpadbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+            </dpad>
+            <trigger index="1">
+                <deadZone>200</deadZone>
+                <throttle>normal</throttle>
+                <triggerbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
+            </trigger>
+            <trigger index="2">
+                <deadZone>200</deadZone>
+                <throttle>normal</throttle>
+                <triggerbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
+            </trigger>
+            <button index="3">
+                <slots>
+                    <slot>
+                        <code>700</code>
+                        <mode>hold</mode>
+                    </slot>
+                    <slot>
+                        <code>5000</code>
+                        <mode>keypress</mode>
+                    </slot>
+                    <slot>
+                        <code>0x46</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="4">
+                <slots>
+                    <slot>
+                        <code>620</code>
+                        <mode>hold</mode>
+                    </slot>
+                    <slot>
+                        <code>2000</code>
+                        <mode>keypress</mode>
+                    </slot>
+                    <slot>
+                        <code>0x47</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="5">
+                <slots>
+                    <slot>
+                        <code>0x4d</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="10">
+                <setselect>2</setselect>
+                <setselectcondition>while-held</setselectcondition>
+            </button>
+        </set>
+        <set index="2">
+            <trigger index="1">
+                <throttle>normal</throttle>
+            </trigger>
+            <trigger index="2">
+                <throttle>normal</throttle>
+            </trigger>
+            <button index="10">
+                <setselect>1</setselect>
+                <setselectcondition>while-held</setselectcondition>
+            </button>
+            <button index="11">
+                <slots>
+                    <slot>
+                        <code>0x58</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+        </set>
+    </sets>
+</gamecontroller>
